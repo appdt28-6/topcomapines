@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Suite Asesor Panel</title>
+
+    <!-- vendor css -->
+    <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="../lib/rickshaw/css/rickshaw.min.css" rel="stylesheet">
+
+    <!-- Slim CSS -->
+    <link rel="stylesheet" href="../css/slim.css">
+
+  </head>
+  <body class="dashboard-5">
+    <div class="slim-header">
+      <div class="container">
+        <div class="slim-header-left">
+          <h2 class="slim-logo"><a href="index.html">Suite<span>.</span></a></h2>
+
+          <div class="search-box">
+            <input type="text" class="form-control" placeholder="Search">
+            <button class="btn btn-primary"><i class="fa fa-search"></i></button>
+          </div><!-- search-box -->
+        </div><!-- slim-header-left -->
+        <div class="slim-header-right">
+          
+          <div class="dropdown dropdown-b">
+            <a href="" class="header-notification" data-toggle="dropdown">
+              <i class="icon ion-ios-bell-outline"></i>
+              <span class="indicator"></span>
+            </a>
+            <div class="dropdown-menu">
+              <div class="dropdown-menu-header">
+                <h6 class="dropdown-menu-title">Notificaciones</h6>
+                <div>
+                  <!--<a href="">Marcar todas como Leidas</a>
+                  <a href="#">Settings</a>-->
+                </div>
+              </div><!-- dropdown-menu-header -->
+              <div class="dropdown-list">
+                <!-- loop starts here -->
+                <a href="" class="dropdown-link">
+                  <div class="media">
+                    <img src="http://via.placeholder.com/500x500" alt="">
+                    <div class="media-body">
+                      <p><strong>Empresa 1</strong> completo formulario de inscripción</p>
+                      <span>Octubre 03, 2018 10:45am</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <!-- loop ends here -->
+                <a href="" class="dropdown-link">
+                  <div class="media">
+                    <img src="http://via.placeholder.com/500x500" alt="">
+                    <div class="media-body">
+                      <p><strong>Empresa 2</strong> adjunto el archivo de <strong>"Organigrama"</strong></p>
+                      <span>Octubre 02, 2018 12:44am</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <a href="" class="dropdown-link read">
+                  <div class="media">
+                    <img src="http://via.placeholder.com/500x500" alt="">
+                    <div class="media-body">
+                      <p>20+ new items added are for sale in your <strong>Sale Group</strong></p>
+                      <span>October 01, 2017 10:20pm</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <a href="" class="dropdown-link read">
+                  <div class="media">
+                    <img src="http://via.placeholder.com/500x500" alt="">
+                    <div class="media-body">
+                      <p><strong>Julius Erving</strong> wants to connect with you on your conversation with <strong>Ronnie Mara</strong></p>
+                      <span>October 01, 2017 6:08pm</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <div class="dropdown-list-footer">
+                  <a href="page-notifications.html"><i class="fa fa-angle-down"></i> Ver todo</a>
+                </div>
+              </div><!-- dropdown-list -->
+            </div><!-- dropdown-menu-right -->
+          </div><!-- dropdown -->
+          <div class="dropdown dropdown-c">
+            <a href="#" class="logged-user" data-toggle="dropdown">
+              <img src="http://via.placeholder.com/500x500" alt="">
+              <span>Miguel Mendez.</span>
+              <i class="fa fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <nav class="nav">
+                <a href="page-profile.html" class="nav-link"><i class="icon ion-person"></i> Ver Perfil</a>
+                <!--a href="page-edit-profile.html" class="nav-link"><i class="icon ion-compose"></i> Edit Profile</a>-->
+                <a href="page-activity.html" class="nav-link"><i class="icon ion-ios-bolt"></i> Activity Log</a>
+                <a href="page-settings.html" class="nav-link"><i class="icon ion-ios-gear"></i> Account Settings</a>
+                <a href="page-signin.html" class="nav-link"><i class="icon ion-forward"></i> Sign Out</a>
+              </nav>
+            </div><!-- dropdown-menu -->
+          </div><!-- dropdown -->
+        </div><!-- header-right -->
+      </div><!-- container -->
+    </div><!-- slim-header -->
+
+    <div class="slim-navbar">
+      <div class="container">
+        <ul class="nav">
+          <li class="nav-item with-sub active">
+            <a class="nav-link" href="#">
+              <i class="icon ion-ios-home-outline"></i>
+              <span>Dashboard</span>
+            </a>
+            
+          </li>
+          <li class="nav-item with-sub mega-dropdown">
+            <a class="nav-link" href="#">
+              <i class="icon ion-ios-filing-outline"></i>
+              <span>Mis Clientes</span>
+            </a>
+            <div class="sub-item">
+              <ul>
+                <li><a href="clientes.html">Listado de Clientes</a></li>
+                <li><a href="registro_clientes.html">Registrar Nuevo Clinte</a></li>
+                <li><a href="#">Activar Portal de Clientes</a></li>
+              </ul>
+            </div><!-- dropdown-menu -->
+          </li>
+		  <li class="nav-item with-sub mega-dropdown">
+            <a class="nav-link" href="#">
+             <i class="icon ion-ios-book-outline"></i>
+              <span>Mis Actividades</span>
+            </a>
+            <div class="sub-item">
+              <ul>
+                <li><a href="actividades.html">Listado de actividades</a></li>
+                <li><a href="form-layouts.html">Registrar Nueva Actividad</a></li>
+              </ul>
+            </div><!-- dropdown-menu -->
+          </li>
+        </ul>
+      </div><!-- container -->
+    </div><!-- slim-navbar -->
+
+    <div class="slim-mainpanel">
+      <div class="container pd-t-30">
+        <div class="dash-headline-two">
+          <div>
+            <h4 class="tx-inverse mg-b-5">Buen dia, Miguel!</h4>
+            <p class="mg-b-0">17 de Octubre 2018</p>
+          </div>
+          <div class="d-h-t-right">
+            <div class="summary-item">
+              <h1>6</h1>
+              <span>Actividades<br>para hoy</span>
+            </div>
+            <div class="summary-item">
+              <h1>2</h1>
+              <span>Citas<br>agendadas</span>
+            </div>
+          </div>
+        </div><!-- dash-headline-two -->
+
+        <hr>
+
+        <div class="report-summary-header">
+          <div>
+            <h4 class="tx-inverse mg-b-3">Resumen de actividades</h4>
+            <!--<p class="mg-b-0"><i class="icon ion-calendar mg-r-3"></i> January 01, 2018 - January 31, 2018</p>-->
+          </div>
+          <div>
+            <!--<a href="" class="btn btn-secondary"><i class="icon ion-ios-clock-outline tx-22"></i> Activity Logs</a>
+            <a href="" class="btn btn-secondary"><i class="icon ion-ios-gear-outline tx-24"></i> Edit Settings</a>-->
+          </div>
+        </div><!-- d-flex -->
+
+        <div class="row no-gutters dashboard-chart-one">
+          <div class="col-md-4 col-lg">
+            <div class="card card-total">
+              <div>
+                <h1>15</h1>
+                <p>Empresas Asesoradas</p>
+              </div>
+              <div>
+                <div class="tx-24 mg-b-10 tx-center op-5">
+                  <i class="icon ion-man tx-gray-600"></i>
+                  <i class="icon ion-man tx-gray-600"></i>
+                  <i class="icon ion-man tx-gray-600"></i>
+                  <i class="icon ion-man tx-gray-600"></i>
+                  <i class="icon ion-man tx-gray-600"></i>
+                  <i class="icon ion-man tx-gray-600"></i>
+                  <i class="icon ion-man tx-gray-400"></i>
+                  <i class="icon ion-man tx-gray-400"></i>
+                  <i class="icon ion-man tx-gray-400"></i>
+                  <i class="icon ion-man tx-gray-400"></i>
+                </div>
+                <!--<label>Female (66%)</label>
+                <div class="progress mg-b-10">
+                  <div class="progress-bar bg-primary progress-bar-xs wd-65p" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                </div><!-- progress -->
+
+                <!--<label>Male (34%)</label>
+                <div class="progress">
+                  <div class="progress-bar bg-danger progress-bar-xs wd-35p" role="progressbar" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100"></div>
+                </div><!-- progress -->
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-4 col-lg">
+            <div class="card card-total">
+              <div>
+                <h1>3</h1>
+                <p>Empresas registradas</p>
+              </div>
+              <div>
+                <div class="tx-16 mg-b-15 tx-center op-5">
+                  <i class="icon ion-cube tx-gray-600"></i>
+                  <i class="icon ion-cube tx-gray-600"></i>
+                  <i class="icon ion-cube tx-gray-600"></i>
+				<i class="icon ion-cube tx-gray-400"></i>
+                  <i class="icon ion-cube tx-gray-400"></i>
+                  <i class="icon ion-cube tx-gray-400"></i>
+                  <i class="icon ion-cube tx-gray-400"></i>
+				  <i class="icon ion-cube tx-gray-400"></i>
+                  <i class="icon ion-cube tx-gray-400"></i>
+				  <i class="icon ion-cube tx-gray-400"></i>
+                </div>
+                <!--<label>Digital products (85%)</label>
+                <div class="progress mg-b-10">
+                  <div class="progress-bar bg-success progress-bar-xs wd-85p" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div><!-- progress -->
+
+                <!--<label>Non-digital products (15%)</label>
+                <div class="progress">
+                  <div class="progress-bar bg-warning progress-bar-xs wd-15p" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                </div><!-- progress -->
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-4 col-lg">
+            <div class="card card-total">
+              <div>
+                <h1>30%</h1>
+                <p>Proceso total Ranqueo</p>
+              </div>
+              <div>
+                <div class="tx-22 mg-b-10 tx-center op-5">
+                  <i class="icon ion-location tx-gray-600"></i>
+                  <i class="icon ion-location tx-gray-600"></i>
+                  <i class="icon ion-location tx-gray-600"></i>
+                  <i class="icon ion-location tx-gray-600"></i>
+                  <i class="icon ion-location tx-gray-600"></i>
+                  <i class="icon ion-location tx-gray-600"></i>
+                  <i class="icon ion-location tx-gray-600"></i>
+                  <i class="icon ion-location tx-gray-400"></i>
+                  <i class="icon ion-location tx-gray-400"></i>
+                  <i class="icon ion-location tx-gray-400"></i>
+                </div>
+               <!-- <label>Local (75%)</label>
+                <div class="progress mg-b-10">
+                  <div class="progress-bar bg-purple progress-bar-xs wd-75p" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div><!-- progress -->
+
+               <!-- <label>International (25%)</label>
+                <div class="progress">
+                  <div class="progress-bar bg-pink progress-bar-xs wd-25p" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div><!-- progress -->
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md col-lg-4">
+            <div class="card card-revenue">
+              <h6>Proyección de facturación</h6>
+              <p>Calculado al 17 de Octubre del 2018</p>
+              <h1>$32,500 <span class="tx-success">1.4% up</span></h1>
+              <div id="rs3" class="ht-50 ht-sm-70 mg-r--1"></div>
+              <label>Mes pasado: <span>$79,554</span></label>
+            </div><!-- card -->
+          </div><!-- col-4 -->
+        </div><!-- row -->
+
+        <hr>
+		
+		 <div class="row row-sm mg-t-20">
+          <div class="col-lg-6">
+            <div class="card card-table">
+              <div class="card-header">
+                <h6 class="slim-card-title">Actividades Programadas</h6>
+              </div><!-- card-header -->
+              <div class="table-responsive">
+                <table class="table mg-b-0 tx-13">
+                  <thead>
+                    <tr class="tx-10">
+                      <th class="wd-10p pd-y-5">&nbsp;</th>
+                      <th class="pd-y-5">Actividad</th>
+                      <th class="pd-y-5 tx-right">Empresa</th>
+                      <th class="pd-y-5">Prioridad</th>
+                      <th class="pd-y-5 tx-center">Acciones</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="pd-l-20">
+                        <img src="http://via.placeholder.com/800x533" class="wd-55" alt="Image">
+                      </td>
+                      <td>
+                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Envio de documento E1</a>
+                        <!--<span class="tx-11 d-block"><span class="square-8 bg-danger mg-r-5 rounded-circle"></span> 20 remaining</span>-->
+                      </td>
+                      <td class="valign-middle tx-right">Empresa 1</td>
+                      <td class="valign-middle"><span class="tx-success"><i class="icon ion-android-arrow-up mg-r-5"></i></span> Baja</td>
+                      <td class="valign-middle tx-center">
+                        <a href="" class="tx-gray-600 tx-24"><!--<i class="icon ion-android-more-horizontal"></i>-->Terminar
+                    </tr>
+                   <tr>
+                      <td class="pd-l-20">
+                        <img src="http://via.placeholder.com/800x533" class="wd-55" alt="Image">
+                      </td>
+                      <td>
+                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Envio de correo de inicio</a>
+                        <!--<span class="tx-11 d-block"><span class="square-8 bg-danger mg-r-5 rounded-circle"></span> 20 remaining</span>-->
+                      </td>
+                      <td class="valign-middle tx-right">Empresa 1</td>
+                      <td class="valign-middle"><span class="tx-success"><i class="icon ion-android-arrow-up mg-r-5"></i></span> Baja</td>
+                      <td class="valign-middle tx-center">
+                        <a href="" class="tx-gray-600 tx-24"><!--<i class="icon ion-android-more-horizontal"></i>-->Terminar</a>
+                      </td>
+                    </tr>
+                     <tr>
+                      <td class="pd-l-20">
+                        <img src="http://via.placeholder.com/800x533" class="wd-55" alt="Image">
+                      </td>
+                      <td>
+                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Llamar para confirmar cita</a>
+                        <!--<span class="tx-11 d-block"><span class="square-8 bg-danger mg-r-5 rounded-circle"></span> 20 remaining</span>-->
+                      </td>
+                      <td class="valign-middle tx-right">Empresa 1</td>
+                      <td class="valign-middle"><span class="tx-success"><i class="icon ion-android-arrow-up mg-r-5"></i></span> Alta</td>
+                      <td class="valign-middle tx-center">
+                        <a href="" class="tx-gray-600 tx-24"><!--<i class="icon ion-android-more-horizontal"></i>-->Terminar</a>
+                      </td>
+                    </tr>
+                     <tr>
+                      <td class="pd-l-20">
+                        <img src="http://via.placeholder.com/800x533" class="wd-55" alt="Image">
+                      </td>
+                      <td>
+                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Revisar Formulario F4</a>
+                        <!--<span class="tx-11 d-block"><span class="square-8 bg-danger mg-r-5 rounded-circle"></span> 20 remaining</span>-->
+                      </td>
+                      <td class="valign-middle tx-right">Empresa 4</td>
+                      <td class="valign-middle"><span class="tx-success"><i class="icon ion-android-arrow-up mg-r-5"></i></span> Alta</td>
+                      <td class="valign-middle tx-center">
+                        <a href="" class="tx-gray-600 tx-24"><!--<i class="icon ion-android-more-horizontal"></i>-->Terminar</a>
+                      </td>
+                    </tr>
+                  
+                  </tbody>
+                </table>
+              </div><!-- table-responsive -->
+              <div class="card-footer tx-12 pd-y-15 bg-transparent">
+                <a href=""><i class="fa fa-angle-down mg-r-5"></i>Ver todas las actividades</a>
+              </div><!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- col-6 -->
+          <div class="col-lg-6 mg-t-20 mg-lg-t-0">
+            <div class="card card-table">
+              <div class="card-header">
+                <h6 class="slim-card-title">Empresas asesoradas</h6>
+              </div><!-- card-header -->
+              <div class="table-responsive">
+                <table class="table mg-b-0 tx-13">
+                  <thead>
+                    <tr class="tx-10">
+                      <th class="wd-10p pd-y-5">&nbsp;</th>
+                      <th class="pd-y-5">Empresa</th>
+                      <th class="pd-y-5">Contacto</th>
+                      <!--<th class="pd-y-5">Fecha Registro</th>-->
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="pd-l-20">
+                        <img src="http://via.placeholder.com/500x500" class="wd-36 rounded-circle" alt="Image">
+                      </td>
+                      <td>
+                        <a href="page-profile.html" class="tx-inverse tx-14 tx-medium d-block">Empresa 1</a>
+                        <span class="tx-11 d-block">ID Empresa: 1234567890</span>
+                      </td>
+                      <td class="tx-12">
+                        <span class="square-8 bg-success mg-r-5 rounded-circle"></span> Juan Coello
+                      </td>
+                      <!--<td>Just Now</td>-->
+                    </tr>
+                    <tr>
+                      <td class="pd-l-20">
+                        <img src="http://via.placeholder.com/500x500" class="wd-36 rounded-circle" alt="Image">
+                      </td>
+                      <td>
+                        <a href="page-profile.html" class="tx-inverse tx-14 tx-medium d-block">Empresa 2</a>
+                        <span class="tx-11 d-block">ID Empresa: 1234567890</span>
+                      </td>
+                      <td class="tx-12">
+                        <span class="square-8 bg-success mg-r-5 rounded-circle"></span> Manuel Reynoso
+                      </td>
+                      <!--<td>Just Now</td>-->
+                    </tr>
+					 <tr>
+                      <td class="pd-l-20">
+                        <img src="http://via.placeholder.com/500x500" class="wd-36 rounded-circle" alt="Image">
+                      </td>
+                      <td>
+                        <a href="page-profile.html" class="tx-inverse tx-14 tx-medium d-block">Empresa 2</a>
+                        <span class="tx-11 d-block">ID Empresa: 1234567890</span>
+                      </td>
+                      <td class="tx-12">
+                        <span class="square-8 bg-success mg-r-5 rounded-circle"></span> July Diaz
+                      </td>
+                      <!--<td>Just Now</td>-->
+                    </tr>
+                  </tbody>
+                </table>
+              </div><!-- table-responsive -->
+              <div class="card-footer tx-12 pd-y-15 bg-transparent">
+                <!--<a href=""><i class="fa fa-angle-down mg-r-5"></i>View All Transaction History</a>-->
+              </div><!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- col-6 -->
+        </div><!-- row -->
+
+
+      </div><!-- container -->
+    </div><!-- slim-mainpanel -->
+
+    <div class="slim-footer">
+      <div class="container">
+        <p>Copyright 2018 &copy; All Rights Reserved. Suite</p>
+        <p>Powered by: <a href="">AppDT</a></p>
+      </div><!-- container -->
+    </div><!-- slim-footer -->
+
+    <script src="../lib/jquery/js/jquery.js"></script>
+    <script src="../lib/popper.js/js/popper.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.js"></script>
+    <script src="../lib/jquery.cookie/js/jquery.cookie.js"></script>
+    <script src="../lib/d3/js/d3.js"></script>
+    <script src="../lib/rickshaw/js/rickshaw.min.js"></script>
+    <script src="../lib/chart.js/js/Chart.js"></script>
+
+    <script src="../js/slim.js"></script>
+    <script src="../js/ResizeSensor.js"></script>
+    <script>
+      $(function(){
+        'use strict'
+
+        var rs3 = new Rickshaw.Graph({
+          element: document.querySelector('#rs3'),
+          renderer: 'line',
+          series: [{
+            data: [
+              { x: 0, y: 5 },
+              { x: 1, y: 7 },
+              { x: 2, y: 10 },
+              { x: 3, y: 11 },
+              { x: 4, y: 12 },
+              { x: 5, y: 10 },
+              { x: 6, y: 9 },
+              { x: 7, y: 7 },
+              { x: 8, y: 6 },
+              { x: 9, y: 8 },
+              { x: 10, y: 9 },
+              { x: 11, y: 10 },
+              { x: 12, y: 7 },
+              { x: 13, y: 10 }
+            ],
+            color: '#1B84E7',
+          }]
+        });
+        rs3.render();
+
+        // Responsive Mode
+        new ResizeSensor($('.slim-mainpanel'), function(){
+          rs3.configure({
+            width: $('#rs3').width(),
+            height: $('#rs3').height()
+          });
+          rs3.render();
+        });
+
+
+        var ctx1 = document.getElementById('chartBar1').getContext('2d');
+        var myChart1 = new Chart(ctx1, {
+          type: 'bar',
+          data: {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            datasets: [{
+              label: '# of Votes',
+              data: [12, 39, 20, 10, 25, 18, 12, 39, 20, 10, 25, 18],
+              backgroundColor: '#27AAC8'
+            }]
+          },
+          options: {
+            maintainAspectRatio: false,
+            legend: {
+              display: false,
+                labels: {
+                  display: false
+                }
+            },
+            scales: {
+              yAxes: [{
+                ticks: {
+                  beginAtZero:true,
+                  fontSize: 10,
+                  max: 80
+                }
+              }],
+              xAxes: [{
+                ticks: {
+                  beginAtZero:true,
+                  fontSize: 11
+                }
+              }]
+            }
+          }
+        });
+
+      });
+    </script>
+  </body>
+</html>
