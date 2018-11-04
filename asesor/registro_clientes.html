@@ -108,14 +108,14 @@
     <div class="slim-navbar">
       <div class="container">
         <ul class="nav">
-          <li class="nav-item with-sub active">
+          <li class="nav-item with-sub ">
             <a class="nav-link" href="#">
               <i class="icon ion-ios-home-outline"></i>
               <span>Dashboard</span>
             </a>
             
           </li>
-          <li class="nav-item with-sub mega-dropdown">
+          <li class="nav-item with-sub active">
             <a class="nav-link" href="#">
               <i class="icon ion-ios-filing-outline"></i>
               <span>Mis Clientes</span>
@@ -128,7 +128,7 @@
               </ul>
             </div><!-- dropdown-menu -->
           </li>
-		  <li class="nav-item with-sub mega-dropdown">
+		  <li class="nav-item with-sub">
             <a class="nav-link" href="#">
              <i class="icon ion-ios-book-outline"></i>
               <span>Mis Actividades</span>
@@ -149,8 +149,8 @@
         <div class="slim-pageheader">
           <ol class="breadcrumb slim-breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">UI Elements</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Data Tables</li>
+            <li class="breadcrumb-item"><a href="#">Clientes</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Registro</li>
           </ol>
           <h6 class="slim-pagetitle">Clientes</h6>
         </div><!-- slim-pageheader -->
@@ -165,43 +165,50 @@
               <div class="col-lg-4">
                 <div class="form-group">
                   <label class="form-control-label">Nombre: <span class="tx-danger">*</span></label>
-                  <input class="form-control" type="text" name="firstname" value="John Paul" placeholder="Enter firstname">
+                  <input class="form-control" type="text" name="firstname" value="Soltech" placeholder="Enter firstname">
                 </div>
               </div><!-- col-4 -->
               <div class="col-lg-4">
                 <div class="form-group">
                   <label class="form-control-label">Contacto: <span class="tx-danger">*</span></label>
-                  <input class="form-control" type="text" name="lastname" value="McDoe" placeholder="Enter lastname">
+                  <input class="form-control" type="text" name="lastname" value="Luis Zayago" placeholder="Enter lastname">
                 </div>
               </div><!-- col-4 -->
               <div class="col-lg-4">
                 <div class="form-group">
                   <label class="form-control-label">Email: <span class="tx-danger">*</span></label>
-                  <input class="form-control" type="text" name="email" value="johnpaul@yourdomain.com" placeholder="Enter email address">
+                  <input class="form-control" type="text" name="email" value="Zayagol@yourdomain.com" placeholder="Enter email address">
                 </div>
               </div><!-- col-4 -->
-              <div class="col-lg-8">
+              <div class="col-lg-4">
                 <div class="form-group mg-b-10-force">
                   <label class="form-control-label">Telefono: <span class="tx-danger">*</span></label>
-                  <input class="form-control" type="text" name="address" value="Market St. San Francisco" placeholder="Enter address">
+                  <input class="form-control" type="text" name="address" value="55 108 89 78" placeholder="Enter address">
                 </div>
               </div><!-- col-8 -->
               <div class="col-lg-4">
                 <div class="form-group mg-b-10-force">
-                  <label class="form-control-label">Tipo de Registro: <span class="tx-danger">*</span></label>
+                  <label class="form-control-label">Sitio Web: <span class="tx-danger">*</span></label>
+                  <input class="form-control" type="text" name="address" value="www.webempresas.com" placeholder="Enter address">
+                </div>
+              </div><!-- col-8 -->
+              <div class="col-lg-4">
+                <div class="form-group mg-b-10-force">
+                  <label class="form-control-label">Tipo de Servicio: <span class="tx-danger">*</span></label>
                   <select class="form-control select2" >
                     <option label="Tipo de servicio"></option>
-                    <option value="USA">Top Ranking</option>
-                    <option value="UK">Servicio 1</option>
-                    <option value="China">Servicio 2</option>
-                    <option value="Japan">Servicio 3</option>
+                    <option value="1">Ranking Súper Empresas</option>
+                    <option value="2">Ranking TOP+ América</option>
+                    <option value="3">Ranking Wework</option>
+                    <option value="4">Ranking Mujeres</option>
+                    <option value="5">Sólo Estudio</option>
                   </select>
 				 </div>
               </div><!-- col-4 -->
             </div><!-- row -->
 
             <div class="form-layout-footer">
-              <button class="btn btn-primary bd-0">Submit Form</button>
+              <a href="page-profile-demo.html"><button class="btn btn-primary bd-0">Guardar</button></a>
               <button class="btn btn-secondary bd-0">Cancel</button>
             </div><!-- form-layout-footer -->
           </div><!-- form-layout -->
